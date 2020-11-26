@@ -1,5 +1,7 @@
 # ExileReKeyFix
 
+Fixed a Exile bug/design flaw which took your poptabs while aborting the PIN change at the Vehicle Customs Trader. Now the poptabs only get deducted if the PIN change is successful.
+
 ##>Installation
 
 1. Add/replace the files in your missionfile/server pbo via CfgExileCustomCode of your mission config.cpp.
